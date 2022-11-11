@@ -92,7 +92,7 @@ void loop() {
   // ADD YOUR CODE HERE
  
   // Generate the force condition 
-  force = -0.5;   //[N]
+  force = 0.5;   //[N]
   // Compute the require motor pulley torque (tau) to generate that force using the force-torque relationship
   tau = force * rh * rp/rs;    //[Nm]
    
